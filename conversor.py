@@ -2,8 +2,7 @@ def convertir_moneda (tipo_moneda, valor_dolar):
     pesos = input("¿Cuantos pesos "+tipo_moneda+" tienes? ")
     pesos = float(pesos)
     dolares = pesos/valor_dolar
-    dolares=round(dolares,2)
-    dolares = str(dolares)
+    dolares=str(round(dolares,2))
     print("Tienes $" + dolares + " dólares")
 
 menu = """
