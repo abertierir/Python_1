@@ -1,7 +1,9 @@
 def run():
     sentence=input("Ingrese el posible palíndromo: ")
     sentence=str(sentence).replace(" ","")
-    sentence_invertida=sentence[::-1].lower
+    sentence=sentence.lower
+    print("la sentence es: "+sentence )
+    sentence_invertida=sentence[::-1]
     if sentence==sentence_invertida:
         print("Es un palíndromo")
     else:
