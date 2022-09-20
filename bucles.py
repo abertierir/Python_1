@@ -1,0 +1,1 @@
+#Reto: Imprimir todas las potencias de dos hasta llegar al número 1000
