@@ -3,3 +3,5 @@
 for x in range(1000):
     print("2**"+str(x)+" = ")
     print(2**x)
+
+    #Debería quizás tambien incluir un resumen
