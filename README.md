@@ -1,1 +1,3 @@
-# Python_1
+# Learning Python
+## Class Notes
+## Project Description
